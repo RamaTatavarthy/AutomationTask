@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation suite" parallel="tests" thread-count="3">
+    <test name="Profile Tests">
+        <classes>
+            <class name="LoginTest"/>
+            <class name="ProfileUpdateTest"/>
+        </classes>
+    </test>
+    <test name="Recruitment Tests">
+        <classes>
+            <class name="RecruitmentTest"/>
+        </classes>
+    </test>
+    <test name = "Admin Tests">
+        <classes>
+            <class name="AdminTest"/>
+        </classes>
+    </test>
+</suite>

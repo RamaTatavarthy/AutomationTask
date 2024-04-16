@@ -1,0 +1,43 @@
+{
+  "testValidLogin": {
+    "userName" : "Admin",
+    "password" : "admin123"
+  },
+  "testInvalidLogin": {
+    "userName" : "Admin1",
+    "password" : "admin123"
+  },
+  "addNewCandidate": {
+    "userName" : "Admin",
+    "password" : "admin123",
+    "firstName" : "Ram",
+    "lastName" : "Test",
+    "email" : "test@gmail.com"
+  },
+  "removeCandidate": {
+    "userName" : "Admin",
+    "password" : "admin123",
+    "firstName" : "Ram",
+    "lastName" : "Test",
+    "email" : "test@gmail.com"
+  },
+  "testChangeProfilePic": {
+    "userName" : "Admin",
+    "password" : "admin123"
+  },
+  "testUpdateContactDetails": {
+    "userName" : "Admin",
+    "password" : "admin123",
+    "email" : "test@gmail.com"
+  },
+  "testSearchUser": {
+    "userName" : "Admin",
+    "password" : "admin123",
+    "keyword" : "Admin"
+  },
+  "testResetSearchResult": {
+    "userName" : "Admin",
+    "password" : "admin123",
+    "keyword" : "Admin"
+  }
+}
